@@ -178,6 +178,10 @@ Design a contact us form with all fields as required.
         text-align: center;
         margin: 0%;
       }
+      fieldset {
+      display: inline-block;
+      margin: 0%;
+    }
     </style>
     <h4>Health chart</h4>
     <table>
