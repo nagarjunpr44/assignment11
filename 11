@@ -99,5 +99,159 @@ Design a contact us form with all fields as required.
 </html>
 
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <label for="title" style="color: white"
+          ><span style="background-color: red">
+            Yes!I want to subscribe to Mag-O-Zine</span
+          ></label
+        ><br />
+        <input type="text" size="11" /> <input type="text" size="14" /><br />
+        <label for="name">First name</label>
+
+        <label for="name"
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Last name </label
+        ><br />
+        <input type="text" size="31" /><br />
+        <label for="address">Address</label><br />
+        <input type="text" name="" id="" size="8" />
+        <input type="text" size="8" />
+        <input type="text" size="4" /><br />
+        <label for="city">City</label>
+        <label for="state"
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          state</label
+        >
+        <label for="zip"
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zip</label
+        ><br /><br />
+        <b>
+          <label for="subscribe" name="sub">Subscribe for:</label>
+          <input type="checkbox" name="sub" />1 year($19.95)
+          <input type="checkbox" name="sub" />2 years($35.00) <br />
+          <label for="">Send me more information about:</label> <br />
+          <input type="checkbox" name="info" /> Computer-zine <br />
+          <input type="checkbox" name="info" /> Fishing-zine <br />
+          <input type="checkbox" name="info" /> Cat-o-zine <br />
+        </b>
+      </fieldset>
+    </form>
+  </body>
+</html>
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Table</title>
+  </head>
+  <body>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      table {
+        margin: auto;
+      }
+      h4 {
+        text-align: center;
+        margin: 0%;
+      }
+    </style>
+    <h4>Health chart</h4>
+    <table>
+      <tr>
+        <th rowspan="2">State of health</th>
+        <th colspan="2">Fasting Value</th>
+        <th>After Eating</th>
+      </tr>
+      <tr>
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td>2 Hours after eating</td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+// Highlight
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <mark> HTML & CSS is awesome</mark>
+  </body>
+</html>
+
+
+Input elements
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Name <input type="text" /><br /><br />
+    Password <input type="password" /><br /><br />
+    <input type="submit" />
+    <input type="reset" /><br />
+    Radio button <input type="radio" /><br /><br />
+    Checkbox<input type="checkbox" /><br /><br />
+    Button<input type="button" value="Login" /><br /><br />
+    <input type="file" /><br />
+    <input type="image" /><br />
+    <input type="color" /><br />
+    <input type="date" /><br />
+    Email <input type="email" /><br /><br />
+    Number <input type="number" /><br /><br />
+    Telephone <input type="tel" /><br /><br />
+    Search <input type="search" /><br /><br />
+  </body>
+</html>
